@@ -15,3 +15,20 @@
 .service-list li::marker {
   color: var(--terra);
 }
+
+/* Add Amharic name above Ademas */
+.brand-names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.brand-names .brand-amharic {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #12333b;
+  letter-spacing: 0;
+  margin: 0 0 3px 0;
+  line-height: 1.2;
+}
