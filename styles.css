@@ -133,3 +133,16 @@ footer { background: var(--dark); color: #d9e3e1; padding: 35px 0; }
 .service-list { padding-left: 19px; margin: 14px 0 0; color: var(--muted); font-size: 14px; line-height: 1.65; }
 .service-list li { margin-bottom: 9px; }
 .service-list li::marker { color: var(--terra); }
+
+.hero-photo {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 28px;
+}
+
+.hero-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
